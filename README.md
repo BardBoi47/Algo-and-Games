@@ -1,2 +1,3 @@
 # Algo-and-Games
-Repository of all the games I've coded in Python (Google Colab)
+
+This repository will serve as a folder for all my games I've made in Google Colab and want to show to cooleg admissions for yahoo points

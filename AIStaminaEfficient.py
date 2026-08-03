@@ -1,5 +1,3 @@
-# Djikstra you mf
-
 import random
 import time
 from google.colab import output

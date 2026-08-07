@@ -16,32 +16,24 @@ def scan():
   for u in range(81):
     y, x = divmod(u, 9)
 
-    # Check neighbors (up, down, left, right)
-    # Neighbor 'v' has coordinates (ny, nx)
-    # Weight 'w' is L[ny][nx]
-
-    # Up
     if y > 0:
       ny, nx = y - 1, x
       v = tdod(nx, ny)
       w = L[ny][nx]
       adj[u].append((v, w))
 
-    # Down
     if y < 8:
       ny, nx = y + 1, x
       v = tdod(nx, ny)
       w = L[ny][nx]
       adj[u].append((v, w))
 
-    # Left
     if x > 0:
       ny, nx = y, x - 1
       v = tdod(nx, ny)
       w = L[ny][nx]
       adj[u].append((v, w))
 
-    # Right
     if x < 8:
       ny, nx = y, x + 1
       v = tdod(nx, ny)
